@@ -626,6 +626,14 @@
     [
       "17ecef2a-4000-49de-93ef-dcbfcfdaa69f",
       "Root"
+    ],
+    [
+      "e04d234d-f1f6-4b82-828e-fb6967cfc08b",
+      "Power"
+    ],
+    [
+      "1a0aeeed-875e-41ba-97ea-cc83a4491dee",
+      "DDR4_PHY"
     ]
   ],
   "text_variables": {}

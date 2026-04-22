@@ -220,6 +220,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -628,12 +632,16 @@
       "Root"
     ],
     [
-      "e04d234d-f1f6-4b82-828e-fb6967cfc08b",
-      "Power"
+      "b0ac13bd-9621-484e-ac2a-625147906591",
+      "RK3562_CORE"
     ],
     [
       "1a0aeeed-875e-41ba-97ea-cc83a4491dee",
       "DDR4_PHY"
+    ],
+    [
+      "e04d234d-f1f6-4b82-828e-fb6967cfc08b",
+      "Power"
     ]
   ],
   "text_variables": {}

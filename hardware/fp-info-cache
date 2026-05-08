@@ -1,4 +1,4 @@
-25694439007214923
+25710681549793886
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64476,6 +64476,13 @@ air coil inductor wurth we cair
 0
 2
 2
+Inductor_SMD
+L_smd_1212_3232metric
+
+
+0
+2
+2
 Inductor_SMD_Wurth
 L_Wurth_WE-LQSH-2010
 Semi-Shielded High Saturation Power Inductor, body 2x1.6mm, https://www.we-online.com/catalog/en/WE-LQSH#/articles/WE-LQSH-2010
@@ -86289,6 +86296,13 @@ USON-20 2x4mm Pitch 0.4mm
 20
 20
 Package_SON
+Untitled
+
+
+0
+0
+0
+Package_SON
 VSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm
 VSON, 8 Pin (https://www.ti.com/lit/ds/symlink/thvd1450.pdf#page=37), generated with kicad-footprint-generator ipc_noLead_generator.py
 VSON NoLead
@@ -102795,6 +102809,13 @@ QFN-24_L4.0-W4.0-P0.50-BL-EP2.6
 25
 25
 easyeda2kicad
+QFN-48_L6.0-W6.0-P0.40-TL-EP4.6
+
+
+0
+49
+49
+easyeda2kicad
 QFN-48_L7.0-W7.0-P0.50-TL-EP5.4-1
 
 
@@ -102809,6 +102830,13 @@ QFN-60_L7.0-W7.0-P0.40-TL-EP3.4
 61
 61
 easyeda2kicad
+QFN-68_L7.0-W7.0-P0.35-BL-EP5.5
+
+
+0
+78
+69
+easyeda2kicad
 SC-70-6_L2.2-W1.3-P0.65-LS2.1-BL
 
 
@@ -102816,12 +102844,26 @@ SC-70-6_L2.2-W1.3-P0.65-LS2.1-BL
 6
 6
 easyeda2kicad
+SIM-SMD_8P-1040310811
+
+
+0
+14
+14
+easyeda2kicad
 SOT-23-5_L2.9-W1.6-P0.95-LS2.7-BR
 
 
 0
 5
 5
+easyeda2kicad
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR
+
+
+0
+6
+6
 easyeda2kicad
 SOT-583-8_L2.1-W1.2-P0.50-LS1.6-BR
 
@@ -102836,6 +102878,20 @@ SW-SMD_L3.9-W3.0-P4.45
 0
 2
 2
+easyeda2kicad
+TFBGA-96_L13.0-W8.0-R16-C6-P0.80-TL
+
+
+0
+96
+96
+easyeda2kicad
+TFBGA395_L14.0-W14.0_RK3328
+
+
+0
+395
+395
 easyeda2kicad
 USB-C-SMD_TYPE-C16PIN
 
@@ -102852,6 +102908,13 @@ VSON8_L2.0-W2.3-P0.50-LS3.1-BL
 8
 easyeda2kicad
 WDFN-10_L3.0-W3.0-P0.50-BL-EP
+
+
+0
+11
+11
+easyeda2kicad
+WSON-10_L2.2-W2.0-P0.40-BL-EP_TI_DLH0010A
 
 
 0

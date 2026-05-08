@@ -5,30 +5,9 @@
 	(uuid "17ecef2a-4000-49de-93ef-dcbfcfdaa69f")
 	(paper "A4")
 	(lib_symbols)
-	(wire
-		(pts
-			(xy 187.96 106.68) (xy 198.12 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 255 255 1)
-		)
-		(uuid "01d60de9-78aa-4d4a-8e62-b3285f307639")
-	)
-	(wire
-		(pts
-			(xy 187.96 109.22) (xy 198.12 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6177c67-8ab2-4d9a-af5c-80e0c962e4dc")
-	)
 	(sheet
-		(at 198.12 86.36)
-		(size 63.5 44.45)
+		(at 193.04 83.185)
+		(size 46.99 27.305)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -41,9 +20,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "1a0aeeed-875e-41ba-97ea-cc83a4491dee")
-		(property "Sheetname" "DDR4_PHY"
-			(at 198.12 85.6484 0)
+		(uuid "9fb56384-99e3-472f-811e-297d68fbc8a9")
+		(property "Sheetname" "DDR3"
+			(at 193.04 82.4734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,143 +30,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "DDR4_PHY.kicad_sch"
-			(at 198.12 131.3946 0)
+		(property "Sheetfile" "DDR3.kicad_sch"
+			(at 193.04 111.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "DDR4_data" input
-			(at 198.12 106.68 180)
-			(uuid "f375e462-9ebc-404d-adcc-d27747aa1894")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DDR4_ctrl" input
-			(at 198.12 109.22 180)
-			(uuid "22c9f1db-e59b-4788-bd49-7abae84be113")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "mini-server"
-				(path "/17ecef2a-4000-49de-93ef-dcbfcfdaa69f"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 135.89 95.25)
-		(size 52.07 21.59)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "b0ac13bd-9621-484e-ac2a-625147906591")
-		(property "Sheetname" "RK3562_CORE"
-			(at 135.89 94.5384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "core.kicad_sch"
-			(at 135.89 117.4246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "DDR4_data" input
-			(at 187.96 106.68 0)
-			(uuid "2d476312-6f9b-4953-9518-e4ac5a6123c4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DDR4_ctrl" input
-			(at 187.96 109.22 0)
-			(uuid "2025fb83-d1e0-4975-9789-2eeed365ff9e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
 			(project "mini-server"
 				(path "/17ecef2a-4000-49de-93ef-dcbfcfdaa69f"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 39.37 81.28)
-		(size 54.61 49.53)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "e04d234d-f1f6-4b82-828e-fb6967cfc08b")
-		(property "Sheetname" "Power"
-			(at 39.37 80.5684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "power.kicad_sch"
-			(at 39.37 131.3946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "mini-server"
-				(path "/17ecef2a-4000-49de-93ef-dcbfcfdaa69f"
-					(page "4")
 				)
 			)
 		)

@@ -188,7 +188,8 @@
       ],
       "track_widths": [
         0.0,
-        0.1
+        0.1,
+        0.3
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -220,6 +221,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.3,
+          "drill": 0.2
         },
         {
           "diameter": 0.4,
@@ -448,7 +453,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -490,6 +495,14 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.1,
+        "name": "impedance_50",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 255, 255)",
+        "track_width": 0.1565
       }
     ],
     "meta": {
@@ -497,7 +510,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "/RK3562_CORE/DML"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RK3562_CORE/DMU"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -614,6 +636,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -632,16 +662,8 @@
       "Root"
     ],
     [
-      "b0ac13bd-9621-484e-ac2a-625147906591",
-      "RK3562_CORE"
-    ],
-    [
-      "1a0aeeed-875e-41ba-97ea-cc83a4491dee",
-      "DDR4_PHY"
-    ],
-    [
-      "e04d234d-f1f6-4b82-828e-fb6967cfc08b",
-      "Power"
+      "9fb56384-99e3-472f-811e-297d68fbc8a9",
+      "DDR3"
     ]
   ],
   "text_variables": {}

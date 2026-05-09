@@ -498,28 +498,201 @@
       },
       {
         "clearance": 0.1,
-        "name": "impedance_50",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "name": "DDR3_ADDR",
+        "pcb_color": "rgb(194, 0, 194)",
+        "priority": 1,
+        "schematic_color": "rgb(194, 0, 194)",
+        "track_width": 0.1565,
+        "via_diameter": 0.4,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.1565,
+        "line_style": 0,
+        "name": "DDR3_DATA",
+        "pcb_color": "rgb(0, 194, 0)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 194, 0)",
+        "track_width": 0.1565,
+        "via_diameter": 0.4,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.1,
+        "name": "DDR3_SIG",
+        "pcb_color": "rgb(0, 0, 194)",
         "priority": 0,
-        "schematic_color": "rgb(0, 255, 255)",
-        "track_width": 0.1565
+        "schematic_color": "rgb(0, 0, 194)",
+        "track_width": 0.1,
+        "via_diameter": 0.4,
+        "via_drill": 0.3
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Default",
-        "pattern": "/RK3562_CORE/DML"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/RK3562_CORE/DMU"
-      }
-    ]
+    "netclass_assignments": {
+      "/DDR3/A0": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3/A1": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3/A10": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3/A11": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3/A12": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3/A13": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3/A14": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3/A2": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3/A3": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3/A4": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3/A5": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3/A6": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3/A7": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3/A8": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3/A9": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3/A[0..14]": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3/BA0": [
+        "DDR3_SIG"
+      ],
+      "/DDR3/BA1": [
+        "DDR3_SIG"
+      ],
+      "/DDR3/BA2": [
+        "DDR3_SIG"
+      ],
+      "/DDR3/CASn": [
+        "DDR3_SIG"
+      ],
+      "/DDR3/CKE": [
+        "DDR3_SIG"
+      ],
+      "/DDR3/CKN": [
+        "DDR3_SIG"
+      ],
+      "/DDR3/CKP": [
+        "DDR3_SIG"
+      ],
+      "/DDR3/CSn": [
+        "DDR3_SIG"
+      ],
+      "/DDR3/DML": [
+        "DDR3_SIG"
+      ],
+      "/DDR3/DMU": [
+        "DDR3_SIG"
+      ],
+      "/DDR3/DQL0": [
+        "DDR3_DATA"
+      ],
+      "/DDR3/DQL1": [
+        "DDR3_DATA"
+      ],
+      "/DDR3/DQL2": [
+        "DDR3_DATA"
+      ],
+      "/DDR3/DQL3": [
+        "DDR3_DATA"
+      ],
+      "/DDR3/DQL4": [
+        "DDR3_DATA"
+      ],
+      "/DDR3/DQL5": [
+        "DDR3_DATA"
+      ],
+      "/DDR3/DQL6": [
+        "DDR3_DATA"
+      ],
+      "/DDR3/DQL7": [
+        "DDR3_DATA"
+      ],
+      "/DDR3/DQSLN": [
+        "DDR3_SIG"
+      ],
+      "/DDR3/DQSLP": [
+        "DDR3_SIG"
+      ],
+      "/DDR3/DQSUN": [
+        "DDR3_SIG"
+      ],
+      "/DDR3/DQSUP": [
+        "DDR3_SIG"
+      ],
+      "/DDR3/DQU0": [
+        "DDR3_DATA"
+      ],
+      "/DDR3/DQU1": [
+        "DDR3_DATA"
+      ],
+      "/DDR3/DQU2": [
+        "DDR3_DATA"
+      ],
+      "/DDR3/DQU3": [
+        "DDR3_DATA"
+      ],
+      "/DDR3/DQU4": [
+        "DDR3_DATA"
+      ],
+      "/DDR3/DQU5": [
+        "DDR3_DATA"
+      ],
+      "/DDR3/DQU6": [
+        "DDR3_DATA"
+      ],
+      "/DDR3/DQU7": [
+        "DDR3_DATA"
+      ],
+      "/DDR3/ODT": [
+        "DDR3_SIG"
+      ],
+      "/DDR3/RASn": [
+        "DDR3_SIG"
+      ],
+      "/DDR3/RSTn": [
+        "DDR3_SIG"
+      ],
+      "/DDR3/WEn": [
+        "DDR3_SIG"
+      ],
+      "/DDR3/{CKP CKN WEn CSn ODT CASn RASn RSTn BA2 BA1 BA0 CKE  DQSUP DQSUN DQSLP DQSLN DMU DML}": [
+        "DDR3_SIG"
+      ],
+      "/DDR3/{DQL[0..7] DQU[0..7]}": [
+        "DDR3_DATA"
+      ]
+    },
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -662,8 +835,16 @@
       "Root"
     ],
     [
+      "385b9ec2-ad34-4f97-be56-79080b11a749",
+      "main"
+    ],
+    [
       "9fb56384-99e3-472f-811e-297d68fbc8a9",
       "DDR3"
+    ],
+    [
+      "3600fbf6-de14-44f9-b86f-9b010ddcaaed",
+      "Power"
     ]
   ],
   "text_variables": {}

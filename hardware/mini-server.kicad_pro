@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 2.8,
+          "width": 2.8
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -884,7 +884,7 @@
         "uuid": "17ecef2a-4000-49de-93ef-dcbfcfdaa69f"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U3",
     "variants": []
   },
   "sheets": [
@@ -903,6 +903,26 @@
     [
       "3600fbf6-de14-44f9-b86f-9b010ddcaaed",
       "Power"
+    ],
+    [
+      "66b52930-0c85-4676-845f-af1d7e666d61",
+      "RK3328 Symbols"
+    ],
+    [
+      "b543ee68-b1d2-413f-b254-e28abbef5bf5",
+      "Ethernet"
+    ],
+    [
+      "d27ec9ad-bc3d-4bec-935d-7d712b342cd3",
+      "HDMI"
+    ],
+    [
+      "3a50fc1d-2e88-4128-9324-db538a03f4b1",
+      "Storage"
+    ],
+    [
+      "d8599187-6eee-4490-88aa-520f15148470",
+      "Audio"
     ]
   ],
   "text_variables": {},

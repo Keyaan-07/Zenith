@@ -17,6 +17,26 @@
 	)
 	(bus
 		(pts
+			(xy 107.95 68.58) (xy 119.38 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "310f3162-82ad-4eca-84a3-943c54d94b2c")
+	)
+	(bus
+		(pts
+			(xy 119.38 68.58) (xy 119.38 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e4d711-4341-4517-b0ce-4dff033415ed")
+	)
+	(bus
+		(pts
 			(xy 177.8 96.52) (xy 189.23 96.52)
 		)
 		(stroke
@@ -24,6 +44,26 @@
 			(type default)
 		)
 		(uuid "633d89c1-4026-4b14-962d-a8595d77f63e")
+	)
+	(bus
+		(pts
+			(xy 119.38 83.82) (xy 127 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e58daf4-192f-4fe0-8a9a-c41deb8af61b")
+	)
+	(bus
+		(pts
+			(xy 152.4 110.49) (xy 152.4 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e288bc88-b1f1-44dd-97a8-3e798e3eab71")
 	)
 	(bus
 		(pts
@@ -149,6 +189,26 @@
 				(justify right)
 			)
 		)
+		(pin "FEPHY" input
+			(at 152.4 110.49 270)
+			(uuid "7f7ba5c8-bc2b-4fa7-867f-d4395ce6f0f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD" input
+			(at 127 83.82 180)
+			(uuid "e3e85c26-e699-4abc-a4b2-d133bc660eb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "mini-server"
 				(path "/17ecef2a-4000-49de-93ef-dcbfcfdaa69f"
@@ -193,6 +253,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SD" input
+			(at 107.95 68.58 0)
+			(uuid "fcc0621f-3530-47ce-b204-1373936392a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -315,6 +385,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "FEPHY" input
+			(at 152.4 120.65 90)
+			(uuid "44309e0a-73fc-4c26-8994-6f8074ed63fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

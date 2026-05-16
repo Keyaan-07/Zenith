@@ -1643,16 +1643,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "connect VCCA!"
-		(exclude_from_sim no)
-		(at 110.744 65.024 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "df885c74-9260-4dfa-87ff-222d952b3205")
-	)
 	(junction
 		(at 138.43 104.14)
 		(diameter 0)

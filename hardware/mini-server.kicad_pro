@@ -515,9 +515,9 @@
       {
         "bus_width": 12,
         "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.109,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -537,7 +537,7 @@
         "diff_pair_width": 0.1209,
         "name": "DDR3_ADDR",
         "pcb_color": "rgb(194, 0, 194)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(194, 0, 194)",
         "track_width": 0.1483,
         "tuning_profile": "",
@@ -551,7 +551,7 @@
         "line_style": 0,
         "name": "DDR3_DATA",
         "pcb_color": "rgb(0, 194, 0)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(0, 194, 0)",
         "track_width": 0.1483,
         "tuning_profile": "",
@@ -564,7 +564,7 @@
         "diff_pair_width": 0.1209,
         "name": "DDR3_SIG",
         "pcb_color": "rgb(0, 0, 194)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(0, 0, 194)",
         "track_width": 0.1483,
         "tuning_profile": "",
@@ -577,8 +577,20 @@
         "diff_pair_width": 0.109,
         "name": "HDMI",
         "pcb_color": "rgb(255, 153, 0)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(255, 153, 0)",
+        "tuning_profile": "",
+        "via_diameter": 0.4,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.109,
+        "name": "USB",
+        "pcb_color": "rgb(255, 28, 70)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 28, 70)",
         "tuning_profile": "",
         "via_diameter": 0.4,
         "via_drill": 0.3
@@ -608,6 +620,9 @@
         "DDR3_ADDR"
       ],
       "/DDR3/A14": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3/A15": [
         "DDR3_ADDR"
       ],
       "/DDR3/A2": [
@@ -792,6 +807,39 @@
       ],
       "/HDMI/{HDMI}": [
         "HDMI"
+      ],
+      "/USB/USB2_0_D+": [
+        "USB"
+      ],
+      "/USB/USB2_0_D-": [
+        "USB"
+      ],
+      "/USB/USB2_1_D+": [
+        "USB"
+      ],
+      "/USB/USB2_1_D-": [
+        "USB"
+      ],
+      "/USB/USB3_DM": [
+        "USB"
+      ],
+      "/USB/USB3_DP": [
+        "USB"
+      ],
+      "/USB/USB3_RXN": [
+        "USB"
+      ],
+      "/USB/USB3_RXP": [
+        "USB"
+      ],
+      "/USB/USB3_TXN": [
+        "USB"
+      ],
+      "/USB/USB3_TXP": [
+        "USB"
+      ],
+      "/USB/{USB}": [
+        "USB"
       ]
     },
     "netclass_patterns": []
@@ -893,7 +941,7 @@
         "AUDIO_L"
       ],
       "DDR3_ADDR": [
-        "A[0..14]"
+        "A[0..15]"
       ],
       "DDR3_DATA": [
         "DQL[0..7]",
@@ -949,10 +997,10 @@
         "USB3_TXN",
         "USB3_RXP",
         "USB3_RXN",
-        "USB2_0_DP",
-        "USB2_0_DM",
-        "USB2_1_DP",
-        "USB2_1_DM"
+        "USB2_0_D+",
+        "USB2_0_D-",
+        "USB2_1_D+",
+        "USB2_1_D-"
       ]
     },
     "connection_grid_size": 50.0,
@@ -1011,7 +1059,7 @@
         "uuid": "17ecef2a-4000-49de-93ef-dcbfcfdaa69f"
       }
     ],
-    "used_designators": "U3,#PWR56-57,#PWR59-60,#PWR62-71,R14-15,J4-8,C59",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

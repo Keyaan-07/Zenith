@@ -1250,6 +1250,12 @@
 		(uuid "d3215959-62f5-4818-acbf-6453f8c43a7a")
 	)
 	(junction
+		(at 74.93 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7c017d6-e7eb-4c17-bbca-49b0dd2d6505")
+	)
+	(junction
 		(at 93.98 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1591,6 +1597,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 33.02) (xy 93.98 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f5a209-d9e7-47bb-bcf0-c82ca4e4c7d2")
+	)
+	(wire
+		(pts
 			(xy 149.86 62.23) (xy 144.78 62.23)
 		)
 		(stroke
@@ -1628,6 +1644,16 @@
 			(type default)
 		)
 		(uuid "78dd8920-2bf9-4026-8859-b1cc467d0b51")
+	)
+	(wire
+		(pts
+			(xy 74.93 175.26) (xy 78.74 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88bc3109-b68a-4fa4-b0ff-d92fb0e756d8")
 	)
 	(wire
 		(pts
@@ -1681,6 +1707,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 175.26) (xy 74.93 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c436da05-c7c9-4206-a760-c2374fc05fe8")
+	)
+	(wire
+		(pts
 			(xy 93.98 123.19) (xy 119.38 123.19)
 		)
 		(stroke
@@ -1688,6 +1724,16 @@
 			(type default)
 		)
 		(uuid "c60c8d38-a8f7-4bfb-943b-f23db747cb72")
+	)
+	(wire
+		(pts
+			(xy 96.52 30.48) (xy 96.52 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca4e6279-eae3-4beb-adca-9703541b1dee")
 	)
 	(wire
 		(pts
@@ -1749,16 +1795,6 @@
 		)
 		(uuid "0968fc95-cf9a-4e96-81fd-e9e0f3a60dce")
 	)
-	(label "USB2_1_DP"
-		(at 102.87 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b8fa8e7-a3ac-4b4b-a562-15a37eabfbf8")
-	)
 	(label "USB3_TXP"
 		(at 139.7 97.79 180)
 		(effects
@@ -1768,16 +1804,6 @@
 			(justify right bottom)
 		)
 		(uuid "2db2ca6c-be48-493e-8f4c-5f2577c20983")
-	)
-	(label "USB2_0_DP"
-		(at 101.6 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "429cdffb-77a5-4c95-90f9-896a002ae376")
 	)
 	(label "USB3_TXN"
 		(at 139.7 95.25 180)
@@ -1789,15 +1815,25 @@
 		)
 		(uuid "4765d56e-1a67-42e1-83f9-fccada8ad010")
 	)
-	(label "USB2_0_DM"
-		(at 101.6 46.99 0)
+	(label "USB2_1_D+"
+		(at 105.41 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "497ad3ac-eeca-487f-8e65-eb7c9b60c83b")
+		(uuid "6d1dfe4f-1f3f-4769-87a9-e8f1bd38c2a0")
+	)
+	(label "USB2_1_D-"
+		(at 105.41 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "773c314f-0207-42b2-883d-c78f6157fe19")
 	)
 	(label "USB3_DP"
 		(at 139.7 81.28 180)
@@ -1809,15 +1845,15 @@
 		)
 		(uuid "80ddb98b-2fe5-49a5-9cdc-edab02e7cc0b")
 	)
-	(label "USB2_1_DM"
-		(at 102.87 123.19 0)
+	(label "USB2_0_D+"
+		(at 104.14 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a4124c7e-bcf0-4c97-9dd0-4c191e49bd5c")
+		(uuid "a471662a-25cc-423f-855e-72ef349fc41c")
 	)
 	(label "USB3_DM"
 		(at 139.7 76.2 180)
@@ -1838,6 +1874,16 @@
 			(justify right bottom)
 		)
 		(uuid "cc9531e6-2155-4f22-a11e-74e5474e6366")
+	)
+	(label "USB2_0_D-"
+		(at 104.14 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3084aaa-4092-40d6-82a8-6e1c02d7055d")
 	)
 	(label "USB3_RXN"
 		(at 139.7 87.63 180)
@@ -2013,6 +2059,85 @@
 			(project "mini-server"
 				(path "/17ecef2a-4000-49de-93ef-dcbfcfdaa69f/a6b568fb-a2c2-40e2-8f9e-cce7ed64309a"
 					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 175.26 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4792828e-fea2-425d-9d08-b062aff158ce")
+		(property "Reference" "#PWR072"
+			(at 74.93 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d2b5655-db52-414c-8d9e-c92edfbcf0e0")
+		)
+		(instances
+			(project "mini-server"
+				(path "/17ecef2a-4000-49de-93ef-dcbfcfdaa69f/a6b568fb-a2c2-40e2-8f9e-cce7ed64309a"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -2469,6 +2594,85 @@
 			(project "mini-server"
 				(path "/17ecef2a-4000-49de-93ef-dcbfcfdaa69f/a6b568fb-a2c2-40e2-8f9e-cce7ed64309a"
 					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 96.52 30.48 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea36a291-a8a1-4468-be65-59d0c519110e")
+		(property "Reference" "#PWR073"
+			(at 96.52 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 96.52 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 96.52 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "42ad0ed5-c3b0-4209-a94a-4826b8e35c80")
+		)
+		(instances
+			(project "mini-server"
+				(path "/17ecef2a-4000-49de-93ef-dcbfcfdaa69f/a6b568fb-a2c2-40e2-8f9e-cce7ed64309a"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)

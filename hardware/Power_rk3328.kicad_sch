@@ -20602,10 +20602,6 @@
 		)
 		(instances
 			(project "mini-server"
-				(path "/17ecef2a-4000-49de-93ef-dcbfcfdaa69f/385b9ec2-ad34-4f97-be56-79080b11a749"
-					(reference "U2")
-					(unit 1)
-				)
 				(path "/17ecef2a-4000-49de-93ef-dcbfcfdaa69f/3600fbf6-de14-44f9-b86f-9b010ddcaaed/66b52930-0c85-4676-845f-af1d7e666d61"
 					(reference "U2")
 					(unit 1)
@@ -22216,10 +22212,6 @@
 		)
 		(instances
 			(project "mini-server"
-				(path "/17ecef2a-4000-49de-93ef-dcbfcfdaa69f/385b9ec2-ad34-4f97-be56-79080b11a749"
-					(reference "U2")
-					(unit 2)
-				)
 				(path "/17ecef2a-4000-49de-93ef-dcbfcfdaa69f/3600fbf6-de14-44f9-b86f-9b010ddcaaed/66b52930-0c85-4676-845f-af1d7e666d61"
 					(reference "U2")
 					(unit 2)

@@ -537,7 +537,7 @@
         "diff_pair_width": 0.1209,
         "name": "DDR3_ADDR",
         "pcb_color": "rgb(194, 0, 194)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(194, 0, 194)",
         "track_width": 0.1483,
         "tuning_profile": "",
@@ -551,7 +551,7 @@
         "line_style": 0,
         "name": "DDR3_DATA",
         "pcb_color": "rgb(0, 194, 0)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(0, 194, 0)",
         "track_width": 0.1483,
         "tuning_profile": "",
@@ -564,9 +564,21 @@
         "diff_pair_width": 0.1209,
         "name": "DDR3_SIG",
         "pcb_color": "rgb(0, 0, 194)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(0, 0, 194)",
         "track_width": 0.1483,
+        "tuning_profile": "",
+        "via_diameter": 0.4,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.109,
+        "name": "HDMI",
+        "pcb_color": "rgb(255, 153, 0)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 153, 0)",
         "tuning_profile": "",
         "via_diameter": 0.4,
         "via_drill": 0.3
@@ -730,8 +742,56 @@
       "/DDR3/{CKP CKN WEn CSn ODT CASn RASn RSTn BA2 BA1 BA0 CKE  DQSUP DQSUN DQSLP DQSLN DMU DML}": [
         "DDR3_SIG"
       ],
+      "/DDR3/{DDR3_ADDR}": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3/{DDR3_DATA}": [
+        "DDR3_DATA"
+      ],
+      "/DDR3/{DDR3_SIG}": [
+        "DDR3_SIG"
+      ],
       "/DDR3/{DQL[0..7] DQU[0..7]}": [
         "DDR3_DATA"
+      ],
+      "/HDMI/HDMI_CEC": [
+        "HDMI"
+      ],
+      "/HDMI/HDMI_CLKN": [
+        "HDMI"
+      ],
+      "/HDMI/HDMI_CLKP": [
+        "HDMI"
+      ],
+      "/HDMI/HDMI_HPD": [
+        "HDMI"
+      ],
+      "/HDMI/HDMI_SCL": [
+        "HDMI"
+      ],
+      "/HDMI/HDMI_SDA": [
+        "HDMI"
+      ],
+      "/HDMI/HDMI_TX0N": [
+        "HDMI"
+      ],
+      "/HDMI/HDMI_TX0P": [
+        "HDMI"
+      ],
+      "/HDMI/HDMI_TX1N": [
+        "HDMI"
+      ],
+      "/HDMI/HDMI_TX1P": [
+        "HDMI"
+      ],
+      "/HDMI/HDMI_TX2N": [
+        "HDMI"
+      ],
+      "/HDMI/HDMI_TX2P": [
+        "HDMI"
+      ],
+      "/HDMI/{HDMI}": [
+        "HDMI"
       ]
     },
     "netclass_patterns": []
@@ -827,7 +887,74 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "AUDIO": [
+        "AUDIO_R",
+        "AUDIO_L"
+      ],
+      "DDR3_ADDR": [
+        "A[0..14]"
+      ],
+      "DDR3_DATA": [
+        "DQL[0..7]",
+        "DQU[0..7]"
+      ],
+      "DDR3_SIG": [
+        "CKP",
+        "CKN",
+        "WEn",
+        "CSn",
+        "ODT",
+        "CASn",
+        "RASn",
+        "RSTn",
+        "BA2",
+        "BA1",
+        "BA0",
+        "CKE",
+        "DQSUP",
+        "DQSUN",
+        "DQSLP",
+        "DQSLN",
+        "DMU",
+        "DML"
+      ],
+      "FEPHY": [
+        "PHY_RXP",
+        "PHY_RXN",
+        "PHY_TXP",
+        "PHY_TXN",
+        "PHY_LINK_LED",
+        "PHY_DATA_LED"
+      ],
+      "HDMI": [
+        "HDMI_TX[0..2]P",
+        "HDMI_TX[0..2]N",
+        "HDMI_CLKP",
+        "HDMI_CLKN",
+        "HDMI_CEC",
+        "HDMI_HPD",
+        "HDMI_SCL",
+        "HDMI_SDA"
+      ],
+      "SD": [
+        "SD_D[0..3]",
+        "SD_CLK",
+        "SD_CMD"
+      ],
+      "USB": [
+        "USB3_DP",
+        "USB3_DM",
+        "USB3_TXP",
+        "USB3_TXN",
+        "USB3_RXP",
+        "USB3_RXN",
+        "USB2_0_DP",
+        "USB2_0_DM",
+        "USB2_1_DP",
+        "USB2_1_DM"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -884,7 +1011,7 @@
         "uuid": "17ecef2a-4000-49de-93ef-dcbfcfdaa69f"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U3,#PWR56-57,#PWR59-60,#PWR62-71,R14-15,J4-8,C59",
     "variants": []
   },
   "sheets": [
@@ -923,6 +1050,10 @@
     [
       "d8599187-6eee-4490-88aa-520f15148470",
       "Audio"
+    ],
+    [
+      "a6b568fb-a2c2-40e2-8f9e-cce7ed64309a",
+      "USB"
     ]
   ],
   "text_variables": {},

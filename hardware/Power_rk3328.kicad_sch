@@ -6494,7 +6494,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 20.32 2.54 180)
+					(at 20.32 3.81 180)
 					(length 2.54)
 					(name "USB0_DP"
 						(effects
@@ -6512,7 +6512,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 20.32 -3.81 180)
+					(at 20.32 -2.54 180)
 					(length 2.54)
 					(name "USB1_DP"
 						(effects
@@ -6530,7 +6530,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -20.32 -8.89 0)
+					(at -20.32 -10.16 0)
 					(length 2.54)
 					(name "USB30_EXTR"
 						(effects
@@ -6692,7 +6692,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 20.32 7.62 180)
+					(at 20.32 -10.16 180)
 					(length 2.54)
 					(name "USB20_EXTR"
 						(effects
@@ -6710,7 +6710,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 20.32 0 180)
+					(at 20.32 1.27 180)
 					(length 2.54)
 					(name "USB0_DM"
 						(effects
@@ -6728,7 +6728,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 20.32 -6.35 180)
+					(at 20.32 -5.08 180)
 					(length 2.54)
 					(name "USB1_DM"
 						(effects
@@ -13814,7 +13814,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 20.32 2.54 180)
+					(at 20.32 3.81 180)
 					(length 2.54)
 					(name "USB0_DP"
 						(effects
@@ -13832,7 +13832,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 20.32 -3.81 180)
+					(at 20.32 -2.54 180)
 					(length 2.54)
 					(name "USB1_DP"
 						(effects
@@ -13850,7 +13850,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -20.32 -8.89 0)
+					(at -20.32 -10.16 0)
 					(length 2.54)
 					(name "USB30_EXTR"
 						(effects
@@ -14012,7 +14012,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 20.32 7.62 180)
+					(at 20.32 -10.16 180)
 					(length 2.54)
 					(name "USB20_EXTR"
 						(effects
@@ -14030,7 +14030,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 20.32 0 180)
+					(at 20.32 1.27 180)
 					(length 2.54)
 					(name "USB0_DM"
 						(effects
@@ -14048,7 +14048,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 20.32 -6.35 180)
+					(at 20.32 -5.08 180)
 					(length 2.54)
 					(name "USB1_DM"
 						(effects
@@ -20602,6 +20602,10 @@
 		)
 		(instances
 			(project "mini-server"
+				(path "/17ecef2a-4000-49de-93ef-dcbfcfdaa69f/385b9ec2-ad34-4f97-be56-79080b11a749"
+					(reference "U2")
+					(unit 1)
+				)
 				(path "/17ecef2a-4000-49de-93ef-dcbfcfdaa69f/3600fbf6-de14-44f9-b86f-9b010ddcaaed/66b52930-0c85-4676-845f-af1d7e666d61"
 					(reference "U2")
 					(unit 1)
@@ -22212,6 +22216,10 @@
 		)
 		(instances
 			(project "mini-server"
+				(path "/17ecef2a-4000-49de-93ef-dcbfcfdaa69f/385b9ec2-ad34-4f97-be56-79080b11a749"
+					(reference "U2")
+					(unit 2)
+				)
 				(path "/17ecef2a-4000-49de-93ef-dcbfcfdaa69f/3600fbf6-de14-44f9-b86f-9b010ddcaaed/66b52930-0c85-4676-845f-af1d7e666d61"
 					(reference "U2")
 					(unit 2)

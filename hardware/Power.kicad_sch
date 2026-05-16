@@ -1997,6 +1997,16 @@
 		)
 		(uuid "33f9527a-a5fe-467a-8fb5-b77881acdeea")
 	)
+	(text "VSYS is the internal 5v"
+		(exclude_from_sim no)
+		(at 99.822 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8beaa5e1-71e8-42fa-8eff-e91ae83373f4")
+	)
 	(junction
 		(at 64.77 76.2)
 		(diameter 0)

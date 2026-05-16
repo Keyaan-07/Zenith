@@ -2317,16 +2317,6 @@
 		)
 		(uuid "3e4c8c88-1d0b-4f49-9700-23819786297c")
 	)
-	(label "{PHY_RXN PHY_RXP PHY_TXP PHY_TXN PHY_LINK_LED PHY_DATA_LED}"
-		(at 133.35 95.25 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5991e057-6aa9-4bed-923e-1f00ed848bc1")
-	)
 	(label "PHY_TXP"
 		(at 137.16 88.9 0)
 		(effects
@@ -2336,6 +2326,16 @@
 			(justify left bottom)
 		)
 		(uuid "5e00a270-b296-479b-9672-f591b330cbe9")
+	)
+	(label "{FEPHY}"
+		(at 133.35 107.95 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "843a0601-cb3f-4b9b-8047-49767240b7ce")
 	)
 	(label "PHY_DATA_LED"
 		(at 198.12 91.44 0)

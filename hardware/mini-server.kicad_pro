@@ -586,7 +586,7 @@
       {
         "clearance": 0.1,
         "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.109,
+        "diff_pair_width": 0.1425,
         "name": "USB",
         "pcb_color": "rgb(255, 28, 70)",
         "priority": 0,
@@ -820,6 +820,12 @@
       "/USB/USB2_1_D-": [
         "USB"
       ],
+      "/USB/USB3_D+": [
+        "USB"
+      ],
+      "/USB/USB3_D-": [
+        "USB"
+      ],
       "/USB/USB3_DM": [
         "USB"
       ],
@@ -991,8 +997,8 @@
         "SD_CMD"
       ],
       "USB": [
-        "USB3_DP",
-        "USB3_DM",
+        "USB3_D+",
+        "USB3_D-",
         "USB3_TXP",
         "USB3_TXN",
         "USB3_RXP",
@@ -1059,7 +1065,7 @@
         "uuid": "17ecef2a-4000-49de-93ef-dcbfcfdaa69f"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J9,BT1-2,#PWR79,C62",
     "variants": []
   },
   "sheets": [

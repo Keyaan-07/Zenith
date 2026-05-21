@@ -1835,7 +1835,7 @@
 		)
 		(uuid "773c314f-0207-42b2-883d-c78f6157fe19")
 	)
-	(label "USB3_DP"
+	(label "USB3_D+"
 		(at 139.7 81.28 180)
 		(effects
 			(font
@@ -1855,7 +1855,7 @@
 		)
 		(uuid "a471662a-25cc-423f-855e-72ef349fc41c")
 	)
-	(label "USB3_DM"
+	(label "USB3_D-"
 		(at 139.7 76.2 180)
 		(effects
 			(font

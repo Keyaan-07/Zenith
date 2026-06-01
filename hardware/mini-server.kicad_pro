@@ -60,9 +60,9 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.2,
-          "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_clearance": 0.1,
+          "min_island_area": 0.0013161349,
+          "min_thickness": 0.1,
           "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -107,7 +107,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -212,6 +212,7 @@
       "track_widths": [
         0.0,
         0.1,
+        0.1425,
         0.4
       ],
       "tuning_pattern_settings": {
@@ -1066,7 +1067,7 @@
         "uuid": "17ecef2a-4000-49de-93ef-dcbfcfdaa69f"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C74-75,R30-34,D1,#PWR94-98",
     "variants": []
   },
   "sheets": [

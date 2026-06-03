@@ -16,13 +16,12 @@ Check out this project on [KiCanvas](https://kicanvas.org/?repo=https%3A%2F%2Fgi
 To check schematics, please go to the above link, imaging every page and putting it here would clutter the README.
 
 
-![kicad-pcb](/media/render.png)
 ![kicad-render](/media/3d-kicad.png)
 ![kicad-render-back](/media/3d-kicad-back.png)
 ![kicad](/media/pcb.png)
 
 
-# Assembly guide:  
+## Assembly guide:  
 1. clone the repo and head to production: 
 ```bash
 git clone https://Github.com/Keyaan-07/Zenith
@@ -33,8 +32,6 @@ cd Zenith/hardware/production
 4. Build the firmware from the [buildroot](https://github.com/buildroot/buildroot) repo.
 5. flash it to the SD card using [rufus.ie](https://rufus.ie)
 6. plug the SD card in and start the board. 
-
-
 
 
 # BOM

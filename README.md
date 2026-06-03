@@ -79,3 +79,8 @@ cd Zenith/hardware/production
 |                                                                                                                                                                                                                                                        |                  |                |        |      |        |                                                  |
 |                                                                                                                                                                                                                                                        |                  |                |        |      |        |                                                  |
 |                                                                                                                                                                                                                                                        |                  |                |        |      |134.8488|                                                  |
+
+
+
+### Onshape link
+[here](https://cad.onshape.com/documents/332461f2f869658015d1b4b3/w/bc37113696b38b58a706d278/e/a246ca9cc7cf7bf594e6cd93) is the onshape link for the project

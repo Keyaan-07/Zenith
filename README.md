@@ -10,9 +10,9 @@ Zenith is a small single board computer made with the RK3328 which comes with 51
 - 24 bit audio
 - 1x USB 3.0 2x USB 2.0
 
-I made this SBC because i wanted to locally host some slack bots. There is literally no other reason. I have not compiled buildroot because 
+I made this SBC because i wanted to locally host some slack bots. There is literally no other reason. I have not compiled buildroot because i'll be using a prebuilt version from ROCK64. A small reason for this is because my laptop probably cannot handle compiling linux. 
 
-Check out this project on [KiCanvas](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FKeyaan-07%2FZenith%2Ftree%2Fmain%2Fhardware)
+Check out this project on [KiCanvas](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FKeyaan-07%2FZenith%2Ftree%2Fmain%2Fhardware)!  
 To check schematics, please go to the above link, imaging every page and putting it here would clutter the README.
 
 

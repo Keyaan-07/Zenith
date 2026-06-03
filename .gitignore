@@ -1,0 +1,4 @@
+hardware/mini-server-backups/*
+hardware/*.kicad_prl
+hardware/*.kicad_pcb-bak
+hardware/fp-info-cache

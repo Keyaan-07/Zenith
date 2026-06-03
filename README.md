@@ -15,7 +15,7 @@ I made this SBC because i wanted to locally host some slack bots. There is liter
 Check out this project on [KiCanvas](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FKeyaan-07%2FZenith%2Ftree%2Fmain%2Fhardware)!  
 To check schematics, please go to the above link, imaging every page and putting it here would clutter the README.
 
-
+![zine](/media/Zenith-zine.png)
 ![kicad-render](/media/3d-kicad.png)
 ![kicad-render-back](/media/3d-kicad-back.png)
 ![kicad](/media/pcb.png)

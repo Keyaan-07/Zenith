@@ -5232,12 +5232,6 @@
 		(uuid "4f2d743d-33c4-4f86-8a68-1ea7753e3a96")
 	)
 	(junction
-		(at 248.92 259.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55ce9606-37b6-435c-9eb6-768de0054aef")
-	)
-	(junction
 		(at 241.3 254)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5440,12 +5434,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4dd0d24-d773-4d7d-8a9c-38a9eb30c16c")
-	)
-	(junction
-		(at 256.54 254)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7230167-c81b-48e1-8584-94a60ba27b6c")
 	)
 	(junction
 		(at 356.87 154.94)
@@ -6136,16 +6124,6 @@
 			(type default)
 		)
 		(uuid "3ade8286-e755-4753-a2ea-4632cfbd1e0a")
-	)
-	(wire
-		(pts
-			(xy 256.54 254) (xy 270.51 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b376c51-576a-4768-b08b-3fb31fa61dd8")
 	)
 	(wire
 		(pts
@@ -7199,16 +7177,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 261.62) (xy 248.92 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8bc69a8-b7c8-402e-86b8-a59c5ae9db2d")
-	)
-	(wire
-		(pts
 			(xy 356.87 115.57) (xy 361.95 115.57)
 		)
 		(stroke
@@ -7306,16 +7274,6 @@
 			(type default)
 		)
 		(uuid "b5552de9-2c16-4781-bc95-17f58f2205b5")
-	)
-	(wire
-		(pts
-			(xy 248.92 261.62) (xy 248.92 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6068d55-4126-4348-b386-08b03a03a118")
 	)
 	(wire
 		(pts
@@ -7619,7 +7577,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 254) (xy 256.54 254)
+			(xy 248.92 254) (xy 270.51 254)
 		)
 		(stroke
 			(width 0)
@@ -10799,88 +10757,6 @@
 			(project "mini-server"
 				(path "/17ecef2a-4000-49de-93ef-dcbfcfdaa69f/3600fbf6-de14-44f9-b86f-9b010ddcaaed"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 256.54 257.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30d95df2-01f6-4156-8c3b-c373d56e1d67")
-		(property "Reference" "C69"
-			(at 260.35 256.5399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 260.35 259.0799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 257.5052 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 256.54 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "122eeaac-d832-4b44-9a29-d68406663ad5")
-		)
-		(pin "1"
-			(uuid "1cf4fa35-ec9a-4626-97b0-c4af04b70c5d")
-		)
-		(instances
-			(project "mini-server"
-				(path "/17ecef2a-4000-49de-93ef-dcbfcfdaa69f/3600fbf6-de14-44f9-b86f-9b010ddcaaed"
-					(reference "C69")
 					(unit 1)
 				)
 			)
